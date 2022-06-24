@@ -1,0 +1,185 @@
+.wp-block-affiliate-booster-ab-tableof-content {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  .wp-block-affiliate-booster-ab-tableof-content .affiliate-toc-wrap {
+    width: 100%;
+    border-width: 8px;
+    border-color: #333;
+    border-style: solid;
+    border-color: #1b75bc; }
+  .wp-block-affiliate-booster-ab-tableof-content .affiliate-toc-list {
+    padding-right: 8px; }
+  .wp-block-affiliate-booster-ab-tableof-content .affiliate-table-of-contents-toggle {
+    box-sizing: border-box;
+    margin-left: 5px; }
+    .wp-block-affiliate-booster-ab-tableof-content .affiliate-table-of-contents-toggle .affiliate-toc-open-icon,
+    .wp-block-affiliate-booster-ab-tableof-content .affiliate-table-of-contents-toggle .affiliate-toc-open-text {
+      display: none; }
+    .wp-block-affiliate-booster-ab-tableof-content .affiliate-table-of-contents-toggle.affiliate-toc-collapsed .affiliate-toc-open-icon,
+    .wp-block-affiliate-booster-ab-tableof-content .affiliate-table-of-contents-toggle.affiliate-toc-collapsed .affiliate-toc-open-text {
+      display: block; }
+    .wp-block-affiliate-booster-ab-tableof-content .affiliate-table-of-contents-toggle.affiliate-toc-collapsed .affiliate-toc-close-icon,
+    .wp-block-affiliate-booster-ab-tableof-content .affiliate-table-of-contents-toggle.affiliate-toc-collapsed .affiliate-toc-close-text {
+      display: none; }
+    .wp-block-affiliate-booster-ab-tableof-content .affiliate-table-of-contents-toggle a {
+      text-decoration: none;
+      display: block; }
+  .wp-block-affiliate-booster-ab-tableof-content .affiliate-toc-title-wrap {
+    padding: 15px 15px 15px 15px; }
+  .wp-block-affiliate-booster-ab-tableof-content .affiliate-toc-list-wrap {
+    padding: 10px 15px 10px 15px; }
+  .wp-block-affiliate-booster-ab-tableof-content .affiliate-toc-list-wrap {
+    overflow: hidden;
+    margin-left: 8px; }
+  .wp-block-affiliate-booster-ab-tableof-content .affiliate-toc-inner {
+    display: flex; }
+    .wp-block-affiliate-booster-ab-tableof-content .affiliate-toc-inner.affiliate-toc-align-center {
+      justify-content: center; }
+    .wp-block-affiliate-booster-ab-tableof-content .affiliate-toc-inner.affiliate-toc-align-left {
+      justify-content: flex-start; }
+    .wp-block-affiliate-booster-ab-tableof-content .affiliate-toc-inner.affiliate-toc-align-right {
+      justify-content: flex-end; }
+  .wp-block-affiliate-booster-ab-tableof-content .affiliate-toc-list-wrap ul li a {
+    color: inherit;
+    line-height: inherit;
+    font-size: inherit; }
+  .wp-block-affiliate-booster-ab-tableof-content.affiliate-toc-align-left {
+    text-align: left; }
+  .wp-block-affiliate-booster-ab-tableof-content.affiliate-toc-align-center {
+    text-align: center; }
+  .wp-block-affiliate-booster-ab-tableof-content.affiliate-toc-align-right {
+    text-align: right; }
+  .wp-block-affiliate-booster-ab-tableof-content ul li:empty {
+    display: none; }
+  .wp-block-affiliate-booster-ab-tableof-content .affiliate-toc-title-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .wp-block-affiliate-booster-ab-tableof-content .affiliate-toc-title-wrap .affiliate-toc-title {
+      word-break: break-all; }
+  .wp-block-affiliate-booster-ab-tableof-content .affiliate-toc-is-collapsible.affiliate-toc-title-wrap {
+    cursor: pointer; }
+  .wp-block-affiliate-booster-ab-tableof-content .aff-toc-collapsible-wrap svg {
+    width: 20px;
+    height: 20px; }
+  .wp-block-affiliate-booster-ab-tableof-content .aff-toc-collapsible-wrap {
+    margin-left: 10px;
+    display: flex;
+    cursor: pointer; }
+  .wp-block-affiliate-booster-ab-tableof-content.affiliate-toc-collapse .affiliate-toc-list-wrap {
+    display: none; }
+  .wp-block-affiliate-booster-ab-tableof-content .affiliate-toc-islist ul.affiliate-toc-list {
+    margin-left: 1.2em;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px !important;
+    list-style-type: disc;
+    word-break: break-word; }
+  .wp-block-affiliate-booster-ab-tableof-content .affiliate-toc-islist .affiliate-toc-list .affiliate-toc-list {
+    list-style-type: circle;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px; }
+  .wp-block-affiliate-booster-ab-tableof-content .affiliate-table-of-contents-placeholder {
+    padding-left: 20px; }
+  .wp-block-affiliate-booster-ab-tableof-content .affiliate-toc-isicon ul.affiliate-toc-list {
+    margin-left: 1.2em;
+    padding-left: 20px;
+    margin: 0px !important;
+    list-style-type: none;
+    position: relative; }
+  .wp-block-affiliate-booster-ab-tableof-content .affiliate-toc-isicon .affiliate-toc-list .affiliate-toc-list {
+    list-style-type: none;
+    position: relative; }
+  .wp-block-affiliate-booster-ab-tableof-content .affiliate-toc-isicon ul li::before {
+    content: "\f054";
+    font-weight: 900 !important;
+    font-family: "Font Awesome 5 Free";
+    padding-right: 6px;
+    position: absolute;
+    right: calc(100% - 19px); }
+  .wp-block-affiliate-booster-ab-tableof-content .affiliate-toc-isnumber ol {
+    counter-reset: item;
+    list-style: none !important;
+    padding-left: 20px;
+    margin: 0 !important; }
+  .wp-block-affiliate-booster-ab-tableof-content .affiliate-toc-isnumber ol li {
+    position: relative; }
+  .wp-block-affiliate-booster-ab-tableof-content .affiliate-toc-isnumber ol > li {
+    counter-increment: item; }
+  .wp-block-affiliate-booster-ab-tableof-content .affiliate-toc-isnumber ol li::before {
+    content: counters(item, ".") ". ";
+    position: unset;
+    right: calc(100% + 6px); }
+
+.affiliate-toc-scroll-top.dashicons {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  padding: 10px;
+  background: #ccd0d4;
+  cursor: pointer; }
+
+.affiliate-toc-scroll-top.affiliate-toc-show-scroll {
+  display: inline-table; }
+
+.affiliate-toc-list-wrap {
+  column-count: auto !important;
+  margin-left: 0px !important; }
+
+@media (min-width: 992px) {
+  .affiliate-toc-list-wrap .affiliate-toc-list.desktop3 {
+    width: 100%; }
+  .affiliate-toc-list-wrap .affiliate-toc-list.desktop3 > li,
+  .affiliate-toc-list-wrap .affiliate-toc-list.desktop2 > li {
+    position: relative;
+    flex-direction: column;
+    position: relative;
+    vertical-align: top;
+    float: left; }
+  .affiliate-toc-list-wrap .affiliate-toc-list.desktop2 > li {
+    width: 50%;
+    padding: 0 30px 0 0px !important;
+    box-sizing: border-box; }
+  .affiliate-toc-list-wrap .affiliate-toc-list.desktop3 > li {
+    width: 33%;
+    padding: 0 25px 0 0px !important;
+    box-sizing: border-box;}
+  .affiliate-toc-list-wrap .affiliate-toc-list.desktop3 > li ul li {
+    width: 100%;
+    position: relative; }
+  .affiliate-toc-list-wrap .affiliate-toc-list.desktop2 > li::before,
+  .affiliate-toc-list-wrap .affiliate-toc-list.desktop3 > li::before,
+  .affiliate-toc-list-wrap .affiliate-toc-list.desktop3 > li ul li::before {
+    right: inherite;
+    left: -15px; }
+  body.page .affiliate-toc-list-wrap .affiliate-toc-list.desktop1,
+  body.page .affiliate-toc-list-wrap .affiliate-toc-list.desktop2,
+  body.page .affiliate-toc-list-wrap .affiliate-toc-list.desktop3 {
+    padding-left: 20px; }
+  body.page .affiliate-toc-list-wrap .affiliate-toc-list.desktop1 li:marker,
+  body.page .affiliate-toc-list-wrap .affiliate-toc-list.desktop2 li:marker,
+  body.page .affiliate-toc-list-wrap .affiliate-toc-list.desktop3 li:marker {
+    display: block; }
+  .affiliate-toc-list-wrap .affiliate-toc-list.desktop3 > li {
+    padding-left: 10px; }
+  body.page .affiliate-toc-list-wrap .affiliate-toc-list.desktop3 > li {
+    padding-left: 2px; } }
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .affiliate-toc-list-wrap .affiliate-toc-list.tablet3 > li,
+  .affiliate-toc-list-wrap .affiliate-toc-list.tablet2 > li {
+    position: relative;
+    flex-direction: column;
+    position: relative;
+    vertical-align: top;
+    float: left; }
+  .affiliate-toc-list-wrap .affiliate-toc-list.tablet2 > li {
+    width: 46%; }
+  .affiliate-toc-list-wrap .affiliate-toc-list.tablet3 > li {
+    width: 29%;
+    padding-left: 2px; }
+  .affiliate-toc-list-wrap .affiliate-toc-list.tablet1 > li ul li {
+    width: 100%; } }

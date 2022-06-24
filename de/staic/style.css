@@ -1,0 +1,73 @@
+.affiliate-notification-wrapper {
+  text-align: left;
+  margin: 30px 0px 30px 0px; }
+  .affiliate-notification-wrapper .affiliate-notification-content {
+    padding: 20px 35px 20px 35px;
+    color: #ffffff;
+    background: #6cd184;
+    position: relative;
+    overflow: hidden; }
+    .affiliate-notification-wrapper .affiliate-notification-content .affiliate-notification-contenttext {
+      z-index: 9;
+      position: relative;
+      margin-bottom: 0;
+      margin-top: 0; }
+    .affiliate-notification-wrapper .affiliate-notification-content .affiliate-bg-icon.in {
+      position: absolute; 
+      top: -30px;
+      color: #f6f6f6; 
+      left: -25px; }
+    .affiliate-notification-wrapper .affiliate-notification-content .affiliate-bg-icon.out {
+      position: absolute; 
+      top: -30px;
+      color: #f6f6f6; 
+      left: -25px; }
+  .affiliate-notification-wrapper .affiliate-notification-content.style2 {
+    border-top: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 0px !important; }
+  .affiliate-notification-wrapper .affiliate-notification-content.style3 {
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-bottom: 0px !important; }
+  .affiliate-notification-wrapper .affiliate-notification-content.style4 {
+    border-left: 0px !important;
+    border-bottom: 0px !important;
+    border-right: 0px !important; }
+  .affiliate-notification-wrapper .affiliate-notification-content.style5 {
+    border-left: 0px !important;
+    border-top: 0px !important;
+    border-right: 0px !important; }
+
+
+
+    .affiliate-notification-inner .affiliate-notification-content.out {
+       overflow: inherit;
+    }
+     .affiliate-notification-inner .affiliate-notification-content.out .affiliate-bg-icon {
+        rotate: 0deg;
+         left: -0.7em;
+         top:-0.5em;
+        border-radius: 50%;
+        background: #fff;
+        padding: 5px;
+    }
+     .affiliate-notification-inner .affiliate-notification-content.in {
+       overflow: hidden;
+    }
+     .affiliate-notification-inner .affiliate-notification-content.in .affiliate-bg-icon {
+       rotate: -45deg;
+    }
+
+.affiliate-notification-wrapper.alignwide {
+    background:#fff;
+    margin-left  : -20px !important; 
+    margin-right : -20px !important;
+}
+.affiliate-notification-wrapper.alignfull {
+    margin-left  : calc( -100vw / 2 + 100% / 2 ) !important;
+    margin-right : calc( -100vw / 2 + 100% / 2 ) !important;
+    max-width    : 100vw;
+    padding: 0 15px;
+    background:#fff;
+}
